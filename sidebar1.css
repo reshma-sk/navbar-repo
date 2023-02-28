@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+.sidebar-toggle{
+    background: transparent;
+    border: transparent;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: aqua;
+    animation: bounce 2s ease-in-out infinite;
+    -webkit-animation: bounce 2s ease-in-out infinite;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    display: none;
+    background: wheat;
+    height: 100vh;
+    padding: 2rem;
+    width: 20vw;
+    text-align: center;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.close-btn{
+    font-size: 1.5rem;
+    color: red;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    text-transform: capitalize;
+}
+ul li{
+    margin-top: 40px;
+}
+ul li a{
+    text-decoration: none;
+}
+.show-sidebar{
+    display: block;
+}

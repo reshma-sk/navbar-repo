@@ -37,7 +37,7 @@ nav{
 .projects{
     width: 100w;
     height: 100vh;
-    background: maroon;
+    background: rgb(226, 127, 127);
     display: none;
 
 }
